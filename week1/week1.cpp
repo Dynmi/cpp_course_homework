@@ -48,7 +48,8 @@ void employee::show_info(void)
     cout<<"salary: "<<e_salary<<endl;
 }
 
-int main(){
+int main()
+{
     employee e1("Steven",1,22,13000);
     e1.show_info();
     e1.~employee();
